@@ -1,0 +1,142 @@
+/* Directory Styling */
+
+.wpvc-leafcutter-wrap {
+    /* border: 1px solid #dbdbdb; */
+    margin-bottom: 31px;
+    padding-bottom: 28px;
+}
+.wpvc-leafcutter-image {
+  object-fit: cover;
+  width: 100%;
+  height: 230px;
+  margin-bottom: 10px;
+}
+.wpvc-leafcutter-title {
+    color: #1D1E1C;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: none;
+    margin-bottom: 6px;
+    padding: 8px 30px 5px 30px;
+}
+.wpvc-leafcutter-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #1D1E1C;
+    padding: 0px 30px 0px 30px;
+}
+.wpvc-leafcutter-text a {
+    color: #cd4335;
+    font-weight: 600;
+}
+.wpvc-leafcutter-wrap img[src=""] {
+    display: none;
+}
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block {
+
+    background-color: #DBDBDB;
+    border: 5px;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block .list-title {
+
+    background-color: #123AB7;
+    line-height: 32px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block .list-title h3 {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block .list-excerpt {
+    line-height: 22px;
+    margin: 20px 10px;
+    padding-bottom: 30px;
+}
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block .list-excerpt p {
+    font-size: 16px;    
+}
+
+.wpvc-leafcutter-container  .list-button-left a{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wpvc-leafcutter-container  .list-button-left{
+    background-color: #FF8200;
+    border: 1px;
+    border-radius: 25px;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.wpvc-leafcutter-container  .list-button-right a{
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.wpvc-leafcutter-container .list-button-right{
+    border: 1px solid #000000;
+    border-radius: 25px;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.wpvc-leafcutter-wrap .wpvc-leafcutter-category select{
+    box-sizing: border-box;	
+    height: 50px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: center;
+    border: 1px solid #000000 !important;
+    max-width: 350px;
+    padding: 10px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 800;
+
+}
+
+
+.wpvc-leafcutter-container .wpvc-leafcutter-block .row:last-child{
+    padding-bottom: 30px;
+}
+
+
+/* ---- isotope ---- */
+  
+  /* clear fix */
+  .isotope:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
